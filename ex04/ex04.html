@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercício 4</title>
+
+	<style type="text/css">
+		body {
+			font-family: Arial;
+		}
+
+		input, select{
+			padding:8px; margin: 5px;
+		}
+	</style>
+</head>
+<body>
+	<h3>Calculadora</h3>
+	
+	<form method="post" action="action.php" autocomplete="off">
+		<input type="num" name="num1" placeholder="Digite um número..." required>
+
+		<select name="operacao" id="operacao">
+			<option value="+">+</option>
+			<option value="-">-</option>
+			<option value="x">x</option>
+			<option value="/">/</option>
+		</select>
+
+		<input type="num" name="num2" placeholder="Digite outro número..." required><br><br>
+
+		<input type="submit" value="Enviar">
+</html>
