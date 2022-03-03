@@ -8,7 +8,7 @@
 	// }
 
 	$num = $_POST['num'];
-
+	
 	if ($num < 0) {
 		echo "O número $num é negativo!";
 	}
