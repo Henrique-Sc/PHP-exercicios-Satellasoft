@@ -27,7 +27,7 @@
 	}
 
 	else {
-		echo ">maior de idade!</b>";
+		echo "maior de idade!</b>";
 	}
 
 	?>
