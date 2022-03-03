@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Exercício 06</title>
+	<title>Resultado - Exercício 06</title>
 
 	<style type="text/css">
 		
@@ -18,7 +18,7 @@
 	</style>
 </head>
 <body>
-	<h3>Ordem crescente</h3>
+	<h3>Resultado exercício 06 - Ordem crescente V1</h3>
 
 	<?php 
 
@@ -34,7 +34,7 @@
 			$menor = $_POST['num1'];
 		}
 		
-		echo "O número $maior é maior que $menor!";
+		echo "Resultado: <b>$maior > $menor!</b>";
 
 	?>
 </body>
