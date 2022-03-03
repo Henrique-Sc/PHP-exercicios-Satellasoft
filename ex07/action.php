@@ -6,15 +6,14 @@
 	<title>Resultado - Exercício 07</title>
 
 	<style type="text/css">
-		
 		body {
-			font-family: Arial;
+			font-family: arial;
 		}
 
-		input, select{
-			padding:8px; margin: 5px;
+		input {
+			padding: 5px;
+			margin: 5px;
 		}
-
 	</style>
 </head>
 <body>

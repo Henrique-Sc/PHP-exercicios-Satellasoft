@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,13 +10,14 @@
 			font-family: arial;
 		}
 
-		input{
-			padding:8px; margin: 5px;
+		input {
+			padding: 5px;
+			margin: 5px;
 		}
 	</style>
 </head>
 <body>
-	<h3>Calculadora</h3>
+	<h3>Resultado exercício 04 - Calculadora</h3>
 
 	<?php 
 

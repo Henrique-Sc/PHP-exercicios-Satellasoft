@@ -9,12 +9,15 @@
 		body {
 			font-family: arial;
 		}
-		input, select{
-			padding:8px; margin: 5px;
+
+		input {
+			padding: 5px;
+			margin: 5px;
 		}
 	</style>
 </head>
 <body>
+	<h3>Resultado exercício 03 - Calculo do fatorial</h3>
 	<?php
 
 		$num = $_POST['num'];
